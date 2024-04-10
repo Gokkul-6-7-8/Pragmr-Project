@@ -1,0 +1,38 @@
+body{
+    font-family: "Noto Sans", sans-serif;
+}
+h2, h3,h4,h5,h6{font-weight:700}
+nav.navbar.bg-body-tertiary{
+    background:rgb(81 78 175) !important;
+}
+ul{
+    list-style-type: none;
+}
+.navbar-nav{
+    flex-direction:row;
+}
+.navbar-nav li a{color:#fff; padding:5px;}
+.body-content{
+    padding:30px 0;
+}
+
+::cue {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px;
+    border-radius: 5px;
+}
+video
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.container{
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    position:absolute;
+    top:170px;
+
+}

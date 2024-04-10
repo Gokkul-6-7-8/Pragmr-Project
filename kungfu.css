@@ -1,0 +1,24 @@
+body{
+    font-family: "Noto Sans", sans-serif;
+}
+h2, h3,h4,h5,h6{font-weight:700}
+nav.navbar.bg-body-tertiary{
+    background:rgb(81 78 175) !important;
+}
+.navbar-nav{
+    flex-direction:row;
+}
+.navbar-nav li a{color:#fff; padding:5px;}
+.body-content{
+    padding:30px 0;
+}
+.title{
+text-align:center;
+item-align:center;
+}
+video
+{
+    position:absolute;
+    left:300px;
+    top:250px;
+}

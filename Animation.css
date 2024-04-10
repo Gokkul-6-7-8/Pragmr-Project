@@ -1,0 +1,45 @@
+body{
+    font-family: "Noto Sans", sans-serif;
+}
+h2, h3,h4,h5,h6{font-weight:700}
+nav.navbar.bg-body-tertiary{
+    background:rgb(81 78 175) !important;
+}
+.navbar-nav{
+    flex-direction:row;
+}
+.navbar-nav li a{color:#fff; padding:5px;}
+.body-content{
+    padding:30px 0;
+}
+.vid-1{
+    padding-bottom:15px;
+}
+img ,button{
+    transition: transform 0.3s ease-in-out;
+}
+img,button:hover{
+    transform: scale(1.1);
+}
+
+ul{
+    list-style-type: none;
+}
+.social-link li i
+{
+    font-size:20px;
+}
+.social-link{
+    display:flex;
+
+}
+.social-link a{
+padding:10px;
+}
+.video-title{
+    margin-bottom:25px;
+    font-size:18px;
+}
+.icons{
+    display:flex;
+}
